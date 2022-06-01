@@ -1,7 +1,13 @@
 import styled from "styled-components";
+import HomeImage from "../../../../assets/header-illustration.png";
 
-const StyledHomeContainer = styled.div`
-
+export const StyledHomeContainer = styled.div`
+   display: flex;
+   justify-content: space-between;
 `;
 
-export default StyledHomeContainer;
+export const StyledHomeImage = styled.img.attrs({ src: HomeImage })`
+   width: 700px;
+   margin-right: -10px;
+`;
+

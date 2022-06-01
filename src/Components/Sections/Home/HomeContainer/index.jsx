@@ -1,9 +1,16 @@
-import HomeMainTitle from "../MainTitle";
-import StyledHomeContainer from "./styled";
+import HomeText from "../HomeText/HomeText";
+import HomeMainTitle from "../HomeText/MainTitle";
+import { HomeTextContainer } from "../HomeText/MainTitle/styled";
+import { StyledHomeImage, StyledHomeContainer } from "./styled";
 
 const HomeContainer = () => (
    <StyledHomeContainer>
-      <HomeMainTitle />
+      <HomeTextContainer>
+         <HomeMainTitle />
+         <HomeText />
+      </HomeTextContainer>
+
+      <StyledHomeImage />
    </StyledHomeContainer>
 );
 
