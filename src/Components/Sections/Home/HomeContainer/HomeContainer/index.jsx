@@ -1,7 +1,7 @@
 import HomeText from "../../HomeText/HomeText";
 import HomeMainTitle from "../../HomeText/MainTitle";
 import { HomeTextContainer } from "../../HomeText/MainTitle/styled";
-import { StyledInputEmail } from "../HomeInputEmail/styled";
+import HomeInputEmail from "../HomeInputEmail";
 import { StyledHomeContainer, StyledHomeImage } from "./styled";
 
 const HomeContainer = () => (
@@ -9,7 +9,7 @@ const HomeContainer = () => (
       <HomeTextContainer>
          <HomeMainTitle />
          <HomeText />
-         <StyledInputEmail />
+         <HomeInputEmail />
       </HomeTextContainer>
       <StyledHomeImage />
    </StyledHomeContainer>

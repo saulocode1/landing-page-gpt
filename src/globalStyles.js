@@ -33,6 +33,7 @@ const GlobalStyle = createGlobalStyle`
       //  Font weight
       --weight-400: 400;
       --weight-500: 500;
+      --weight-700: 700;
       --weight-800: 800;
    }
 `;
