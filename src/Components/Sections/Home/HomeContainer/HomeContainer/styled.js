@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import HomeImage from "../../../../assets/header-illustration.png";
+import HomeImage from "../../../../../assets/header-illustration.png";
 
 export const StyledHomeContainer = styled.div`
    display: flex;

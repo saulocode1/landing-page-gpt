@@ -22,6 +22,8 @@ const GlobalStyle = createGlobalStyle`
       --light-color: #FFFFFF;
       --button-color: #FF4820;
       --text-color: #81AFDD;
+      --input-text-color: #3D6184;
+      --input-color: #052D56;
 
       // Line height
       --height-1: 1.5625rem; // 25px

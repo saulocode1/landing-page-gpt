@@ -1,6 +1,6 @@
 import Blur from "../../../Blur/styled";
 import Header from "../../../Header/Header";
-import HomeContainer from "../HomeContainer";
+import HomeContainer from "../HomeContainer/HomeContainer";
 import StyledHome from "./styled";
 
 const Home = () => (

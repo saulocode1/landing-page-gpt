@@ -6,7 +6,7 @@ export const StyledHomeMainTitle = styled.h1`
    font-size: var(--font-2);
    line-height: var(--height-2);
    font-weight: var(--weight-800);
-   background: -webkit-linear-gradient(-22deg, #AE67FA 1.84%, #F49867 102.67%);
+   background: -webkit-linear-gradient(-22deg, #ae67fa 1.84%, #f49867 102.67%);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 `;
